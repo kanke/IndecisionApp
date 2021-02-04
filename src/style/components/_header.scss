@@ -1,0 +1,18 @@
+.header {
+  background: #20222b;
+  color: white;
+  margin-bottom: 4.8rem; //put some space between header and things below it
+  padding: 1.6rem 0; //1.6 on the top and bottom and 0 on the left and right
+}
+//BEM Block Element modifier
+.header__title {
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: #a5afd7;
+  font-size: 1.6rem;
+  font-weight: 500; //thickness of the font
+  margin: 0;
+}
