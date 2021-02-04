@@ -3,7 +3,9 @@ import React from "react";
 
 const Options = (props) => (
         <div>
-            <button onClick={props.handleDeleteOptions}>Removal All</button>
+            <button
+                className="button button--link"
+                onClick={props.handleDeleteOptions}>Removal All</button>
             {props.options.length === 0 && <p>Please add an option to get started!</p>}
             {
                 props.options.map((option) => (
