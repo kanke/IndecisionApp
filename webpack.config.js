@@ -22,9 +22,9 @@ module.exports = {
                     'css-loader'
                 ]
             },*/
-        //run scss with webpack
+        //run css and scss with webpack
         {
-             test: /\.scss$/,
+             test: /\.s?css$/,
              //allows us to specify an array of loaders
              use: [
                 'style-loader',
