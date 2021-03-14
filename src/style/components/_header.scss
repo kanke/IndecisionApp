@@ -1,7 +1,7 @@
 .header {
   background: $off-black;
   color: white;
-  margin-bottom: $xl-size; //put some space between header and things below it
+  margin-bottom: $m-size; //put some space between header and things below it
   padding: $m-size 0; //1.6 on the top and bottom and 0 on the left and right
 }
 //BEM Block Element modifier
@@ -18,4 +18,10 @@
   font-size: $m-size;
   font-weight: 500; //thickness of the font
   margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
 }
